@@ -24,7 +24,7 @@ public class _003_LongestSubstringWithoutRepeatingCharacters {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s = "qqqq";
+		String s = "qqqqw";
 		
 		System.out.println(lengthOfLongestSubstring(s));
 	}
