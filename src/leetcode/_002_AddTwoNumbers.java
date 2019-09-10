@@ -37,7 +37,7 @@ public class _002_AddTwoNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a=5, b=5;
+		int a=342, b=465;
 		ListNode x = new ListNode(0), y = new ListNode(0);
 		ListNode p = x, q = y;
 		while (a != 0) {
