@@ -31,7 +31,7 @@ public class _005_LongestPalindromicSubstring {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String s = "aaaaa";
+		String s = "aaasaa";
 		System.out.println(longestPalindrome(s));
 	}
 
