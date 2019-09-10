@@ -21,7 +21,7 @@ public class _006_ZigZagConversion {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s = "PAYPALISHIRING";
-		int numRows = 3;
+		int numRows = 4;
 		System.out.println(convert(s, numRows));
 	}
 
