@@ -15,10 +15,10 @@ public class _048_RotateImage {
 				if (flag[i][j]) {
 					continue;
 				}
-				int t = matrix[j][flag.length-1-i];
-				matrix[j][flag.length-1-i] = matrix[i][j];
+				int t = matrix[j][n-1-i];
+				matrix[j][n-1-i] = matrix[i][j];
 				matrix[i][j] = t; 
-				flag[j][flag.length-1-i] = true;
+				flag[j][n-1-i] = true;
 			}
 		}
 		
