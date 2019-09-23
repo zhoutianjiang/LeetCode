@@ -1,0 +1,38 @@
+package leetcode;
+
+public class _058_LengthofLastWord {
+	
+	public static int lengthOfLastWord(String s) {
+		
+		while (s.length() != 0) {
+			int i = s.lastIndexOf(' ');
+			if (i == s.length() - 1) {
+				s = s.substring(0, i);
+			}
+			else if (i == -1){
+				break;
+			}
+			else {
+				s = s.substring(i+1);
+				break;
+			}
+		}
+		
+		if (s.length() == 0) {
+			return 0;
+		}
+		else {
+			return s.length();
+		}
+		
+    }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s = "abc aaa dd ";
+		System.out.println(lengthOfLastWord(s));
+		
+	}
+
+}
