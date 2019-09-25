@@ -8,7 +8,7 @@ public class _079_WordSearch {
 	public static int[][] dircection = {{-1,0}, {0,-1}, {1,0},{0,1}};
 	
 	public static boolean exist(char[][] board, String word) {
-		
+	
 		bd = board;
 		wd = word;
 		flag = new boolean[bd.length][bd[0].length];
@@ -59,6 +59,7 @@ public class _079_WordSearch {
 						{'S','F','C','S'},
 						{'A','D','E','E'}};
 		System.out.println(exist(board, "ADEC"));
+		
 		
 	}
 
