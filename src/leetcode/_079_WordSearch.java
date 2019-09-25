@@ -49,7 +49,7 @@ public class _079_WordSearch {
 	
 	public boolean inArea(int x, int y) {
 		
-		return x >=0 && x < board.length && y >= 0 && y < board[0].length;
+		return x >= 0 && x < board.length && y >= 0 && y < board[0].length;
 	}
 	
 	public static void main(String[] args) {
