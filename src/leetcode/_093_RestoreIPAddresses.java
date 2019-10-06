@@ -46,7 +46,7 @@ public class _093_RestoreIPAddresses {
 			return;
 		}
 		
-		if (flag < 0 || start > s.length()) {
+		if (flag < 0) {
 			return;
 		}
 		
